@@ -1,0 +1,80 @@
+body {
+  background-image: url(https://s28987.pcdn.co/wp-content/uploads/2019/01/ethical-responsible-sustainable-tourism-1.jpg);
+  background-size: 100%;
+}
+
+.title {
+  font-style: italic;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: wheat;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 120px;
+}
+
+.input {
+  color: #333;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 30%;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.state {
+  list-style-type: none;
+  margin-left: 50%;
+}
+
+.state-title {
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: rgb(13, 5, 29);
+  text-align: left;
+  text-transform: uppercase;
+  padding-right: 150px;
+  margin-top: 30px;
+}
+
+.details {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(13, 5, 29);
+  text-align: left;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+.languages {
+  padding-left: 0px;
+}
+
+.lang-item {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.flag {
+  transform: translate(75%, -75%);
+}
+
+.options {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  list-style-type: none;
+  color: whitesmoke;
+  margin-top: 40px;
+  margin-right: 70px;
+  text-align: right;
+}
