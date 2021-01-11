@@ -15,7 +15,6 @@ function createElem(temp, data, place) {
 }
 
 export default function fetchCountries(searchQuery) {
-  countries.innerHTML = "";
   let url = `${baseUrl}${searchQuery}`;
   return fetch(url)
     .then((res) => {
@@ -28,6 +27,7 @@ export default function fetchCountries(searchQuery) {
         });
       } else {
         return res.json();
+        // throw new Error("Error fetching data");
       }
     })
     .then((countriesList) => {

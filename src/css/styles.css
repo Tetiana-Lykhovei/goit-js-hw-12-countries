@@ -9,15 +9,15 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
   color: wheat;
-  text-align: right;
+  text-align: center;
   margin-right: 30px;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .input {
   color: #333;
   font-size: 20px;
-  margin-left: 50%;
+  margin-left: 15%;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 15px;
@@ -25,31 +25,32 @@ body {
   background-color: rgb(255, 255, 255);
   border: none;
   width: 30%;
-  text-align: center;
+  text-align: left;
   transition: all 0.3s;
 }
 
 .state {
   list-style-type: none;
-  margin-left: 50%;
+  margin-left: 15%;
+  padding-top: 55px;
 }
 
 .state-title {
-  font-weight: 600;
+  font-weight: 800;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
-  color: rgb(13, 5, 29);
+  font-size: 30px;
+  color: rgb(21, 20, 24);
   text-align: left;
   text-transform: uppercase;
-  padding-right: 150px;
+  padding-right: 100px;
   margin-top: 30px;
 }
 
 .details {
-  font-weight: 400;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: rgb(13, 5, 29);
+  color: rgb(15, 7, 1);
   text-align: left;
   margin-right: 70px;
   margin-top: 10px;
@@ -65,7 +66,7 @@ body {
 }
 
 .flag {
-  transform: translate(75%, -75%);
+  transform: translate(80%, -100%);
 }
 
 .options {

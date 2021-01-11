@@ -8,6 +8,9 @@ input.addEventListener(
   "input",
   debounce((e) => {
     fetchCountries(e.target.value);
-    input.value = "";
+    countries.innerHTML = "";
+    if (!e.target.value) {
+      return;
+    }
   }, 1000),
 );
