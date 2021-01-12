@@ -6,7 +6,6 @@ import "@pnotify/core/dist/PNotify.css";
 import "@pnotify/core/dist/BrightTheme.css";
 // import "../node_modules/@pnotify/core/dist/PNotify.css";
 const countries = document.querySelector(".countriesAll");
-
 let baseUrl = `https://restcountries.eu/rest/v2/name/`;
 
 function createElem(temp, data, place) {
@@ -25,9 +24,9 @@ export default function fetchCountries(searchQuery) {
           text: "No match found",
           delay: 2000,
         });
+        throw new Error("Error fetching data");
       } else {
         return res.json();
-        // throw new Error("Error fetching data");
       }
     })
     .then((countriesList) => {
